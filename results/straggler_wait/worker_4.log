@@ -1,0 +1,52 @@
+2026-10-28 10:16:53,604 worker4 INFO worker 4: 12000 local samples, faults={'delay': 12.0, 'jitter': 2.0}
+2026-10-28 10:16:53,606 worker4 INFO connected and registered
+2026-10-28 10:17:08,750 worker4 INFO round 1: sent update (loss 0.4515, train 2.64s, delay 12.47s)
+2026-10-28 10:17:22,410 worker4 INFO round 2: sent update (loss 0.1148, train 1.45s, delay 12.21s)
+2026-10-28 10:17:22,411 worker4 INFO coordinator rejected my update for round 1 (stale)
+2026-10-28 10:17:22,411 worker4 INFO coordinator rejected my update for round 2 (stale)
+2026-10-28 10:17:36,610 worker4 INFO round 3: sent update (loss 0.0876, train 1.40s, delay 12.79s)
+2026-10-28 10:17:36,611 worker4 INFO coordinator rejected my update for round 3 (stale)
+2026-10-28 10:17:36,611 worker4 INFO skipping superseded rounds [4]
+2026-10-28 10:17:50,700 worker4 INFO round 5: sent update (loss 0.0620, train 1.77s, delay 12.31s)
+2026-10-28 10:18:04,131 worker4 INFO round 6: sent update (loss 0.0572, train 1.29s, delay 12.13s)
+2026-10-28 10:18:04,132 worker4 INFO coordinator rejected my update for round 5 (stale)
+2026-10-28 10:18:18,396 worker4 INFO round 7: sent update (loss 0.0546, train 1.46s, delay 12.80s)
+2026-10-28 10:18:18,396 worker4 INFO coordinator rejected my update for round 6 (stale)
+2026-10-28 10:18:18,396 worker4 INFO skipping superseded rounds [8]
+2026-10-28 10:18:33,958 worker4 INFO round 9: sent update (loss 0.0485, train 1.72s, delay 13.84s)
+2026-10-28 10:18:33,958 worker4 INFO coordinator rejected my update for round 7 (stale)
+2026-10-28 10:18:48,860 worker4 INFO round 10: sent update (loss 0.0502, train 1.29s, delay 13.60s)
+2026-10-28 10:18:48,860 worker4 INFO coordinator rejected my update for round 9 (stale)
+2026-10-28 10:19:03,833 worker4 INFO round 11: sent update (loss 0.0454, train 1.44s, delay 13.53s)
+2026-10-28 10:19:03,833 worker4 INFO coordinator rejected my update for round 10 (stale)
+2026-10-28 10:19:03,833 worker4 INFO skipping superseded rounds [12]
+2026-10-28 10:19:17,573 worker4 INFO round 13: sent update (loss 0.0469, train 1.29s, delay 12.44s)
+2026-10-28 10:19:17,574 worker4 INFO coordinator rejected my update for round 11 (stale)
+2026-10-28 10:19:31,950 worker4 INFO round 14: sent update (loss 0.0466, train 1.30s, delay 13.07s)
+2026-10-28 10:19:31,950 worker4 INFO coordinator rejected my update for round 13 (stale)
+2026-10-28 10:19:46,222 worker4 INFO round 15: sent update (loss 0.0471, train 1.71s, delay 12.55s)
+2026-10-28 10:19:46,222 worker4 INFO coordinator rejected my update for round 14 (stale)
+2026-10-28 10:19:46,222 worker4 INFO skipping superseded rounds [16]
+2026-10-28 10:19:59,985 worker4 INFO round 17: sent update (loss 0.0482, train 1.41s, delay 12.35s)
+2026-10-28 10:19:59,986 worker4 INFO coordinator rejected my update for round 15 (stale)
+2026-10-28 10:20:13,486 worker4 INFO round 18: sent update (loss 0.0445, train 1.28s, delay 12.21s)
+2026-10-28 10:20:13,486 worker4 INFO coordinator rejected my update for round 17 (stale)
+2026-10-28 10:20:27,354 worker4 INFO round 19: sent update (loss 0.0493, train 1.43s, delay 12.43s)
+2026-10-28 10:20:27,354 worker4 INFO coordinator rejected my update for round 18 (stale)
+2026-10-28 10:20:27,354 worker4 INFO skipping superseded rounds [20]
+2026-10-28 10:20:42,504 worker4 INFO round 21: sent update (loss 0.0506, train 1.29s, delay 13.85s)
+2026-10-28 10:20:42,505 worker4 INFO coordinator rejected my update for round 19 (stale)
+2026-10-28 10:20:57,470 worker4 INFO round 22: sent update (loss 0.0470, train 1.30s, delay 13.66s)
+2026-10-28 10:20:57,471 worker4 INFO coordinator rejected my update for round 21 (stale)
+2026-10-28 10:20:57,472 worker4 INFO skipping superseded rounds [23]
+2026-10-28 10:21:12,957 worker4 INFO round 24: sent update (loss 0.0499, train 1.87s, delay 13.61s)
+2026-10-28 10:21:12,959 worker4 INFO coordinator rejected my update for round 22 (stale)
+2026-10-28 10:21:12,959 worker4 INFO coordinator rejected my update for round 24 (stale)
+2026-10-28 10:21:27,985 worker4 INFO round 25: sent update (loss 0.0494, train 1.42s, delay 13.60s)
+2026-10-28 10:21:42,210 worker4 INFO round 26: sent update (loss 0.0536, train 1.83s, delay 12.39s)
+2026-10-28 10:21:42,210 worker4 INFO coordinator rejected my update for round 25 (stale)
+2026-10-28 10:21:42,211 worker4 INFO skipping superseded rounds [27]
+2026-10-28 10:21:56,250 worker4 INFO round 28: sent update (loss 0.0508, train 1.42s, delay 12.62s)
+2026-10-28 10:21:56,252 worker4 INFO coordinator rejected my update for round 26 (stale)
+2026-10-28 10:22:10,951 worker4 INFO round 29: sent update (loss 0.0534, train 1.44s, delay 13.25s)
+2026-10-28 10:22:10,951 worker4 INFO shutdown received

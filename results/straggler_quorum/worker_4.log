@@ -1,0 +1,15 @@
+2026-10-28 10:22:15,491 worker4 INFO worker 4: 12000 local samples, faults={'delay': 12.0, 'jitter': 2.0}
+2026-10-28 10:22:15,494 worker4 INFO connected and registered
+2026-10-28 10:22:29,882 worker4 INFO round 1: sent update (loss 0.4515, train 1.84s, delay 12.47s)
+2026-10-28 10:22:29,882 worker4 INFO skipping superseded rounds [2, 3, 4, 5, 6]
+2026-10-28 10:22:43,856 worker4 INFO round 7: sent update (loss 0.0570, train 1.76s, delay 12.21s)
+2026-10-28 10:22:43,856 worker4 INFO coordinator rejected my update for round 1 (stale)
+2026-10-28 10:22:43,856 worker4 INFO skipping superseded rounds [8, 9, 10, 11, 12]
+2026-10-28 10:22:58,424 worker4 INFO round 13: sent update (loss 0.0483, train 1.77s, delay 12.79s)
+2026-10-28 10:22:58,424 worker4 INFO coordinator rejected my update for round 7 (stale)
+2026-10-28 10:22:58,424 worker4 INFO skipping superseded rounds [14, 15, 16, 17, 18]
+2026-10-28 10:23:12,638 worker4 INFO round 19: sent update (loss 0.0496, train 1.90s, delay 12.31s)
+2026-10-28 10:23:12,638 worker4 INFO coordinator rejected my update for round 13 (stale)
+2026-10-28 10:23:12,638 worker4 INFO skipping superseded rounds [20, 21, 22, 23, 24]
+2026-10-28 10:23:26,572 worker4 INFO round 25: sent update (loss 0.0509, train 1.79s, delay 12.13s)
+2026-10-28 10:23:26,573 worker4 INFO shutdown received

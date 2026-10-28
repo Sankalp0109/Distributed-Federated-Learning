@@ -1,0 +1,44 @@
+2026-10-28 09:54:28,801 coordinator INFO listening on 127.0.0.1:49273
+2026-10-28 09:54:30,253 coordinator INFO worker 0 registered (12000 samples)
+2026-10-28 09:54:30,290 coordinator INFO worker 2 registered (12000 samples)
+2026-10-28 09:54:30,329 coordinator INFO worker 1 registered (12000 samples)
+2026-10-28 09:54:30,346 coordinator INFO worker 4 registered (12000 samples)
+2026-10-28 09:54:30,352 coordinator INFO worker 3 registered (12000 samples)
+2026-10-28 09:54:30,357 coordinator INFO starting with 5/5 workers: [0, 1, 2, 3, 4]
+2026-10-28 09:54:30,357 coordinator INFO model: 46730 params, wire dtype float32
+2026-10-28 09:54:33,120 coordinator INFO round   1 aggregated   acc=0.5253 loss=1.7653 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.76s
+2026-10-28 09:54:35,899 coordinator INFO round   2 aggregated   acc=0.8170 loss=0.8848 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.78s
+2026-10-28 09:54:38,587 coordinator INFO round   3 aggregated   acc=0.9087 loss=0.4544 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.69s
+2026-10-28 09:54:41,198 coordinator INFO round   4 aggregated   acc=0.9403 loss=0.2655 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.61s
+2026-10-28 09:54:43,802 coordinator INFO round   5 aggregated   acc=0.9468 loss=0.2390 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.60s
+2026-10-28 09:54:46,434 coordinator INFO round   6 aggregated   acc=0.9559 loss=0.1792 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.63s
+2026-10-28 09:54:49,034 coordinator INFO round   7 aggregated   acc=0.9634 loss=0.1540 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.60s
+2026-10-28 09:54:51,647 coordinator INFO round   8 aggregated   acc=0.9610 loss=0.1511 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.61s
+2026-10-28 09:54:54,255 coordinator INFO round   9 aggregated   acc=0.9685 loss=0.1188 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.61s
+2026-10-28 09:54:56,863 coordinator INFO round  10 aggregated   acc=0.9684 loss=0.1136 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.61s
+2026-10-28 09:54:59,488 coordinator INFO round  11 aggregated   acc=0.9732 loss=0.0975 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.62s
+2026-10-28 09:55:02,069 coordinator INFO round  12 aggregated   acc=0.9685 loss=0.1120 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.58s
+2026-10-28 09:55:04,696 coordinator INFO round  13 aggregated   acc=0.9730 loss=0.0933 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.63s
+2026-10-28 09:55:07,323 coordinator INFO round  14 aggregated   acc=0.9758 loss=0.0819 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.63s
+2026-10-28 09:55:09,926 coordinator INFO round  15 aggregated   acc=0.9770 loss=0.0766 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.60s
+2026-10-28 09:55:12,519 coordinator INFO round  16 aggregated   acc=0.9764 loss=0.0807 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.59s
+2026-10-28 09:55:15,130 coordinator INFO round  17 aggregated   acc=0.9780 loss=0.0740 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.61s
+2026-10-28 09:55:17,764 coordinator INFO round  18 aggregated   acc=0.9785 loss=0.0704 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.63s
+2026-10-28 09:55:20,449 coordinator INFO round  19 aggregated   acc=0.9791 loss=0.0697 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.69s
+2026-10-28 09:55:23,100 coordinator INFO round  20 aggregated   acc=0.9791 loss=0.0694 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.65s
+2026-10-28 09:55:25,720 coordinator INFO round  21 aggregated   acc=0.9791 loss=0.0685 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.62s
+2026-10-28 09:55:28,340 coordinator INFO round  22 aggregated   acc=0.9801 loss=0.0606 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.62s
+2026-10-28 09:55:30,938 coordinator INFO round  23 aggregated   acc=0.9780 loss=0.0693 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.60s
+2026-10-28 09:55:33,561 coordinator INFO round  24 aggregated   acc=0.9800 loss=0.0616 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.62s
+2026-10-28 09:55:36,253 coordinator INFO round  25 aggregated   acc=0.9806 loss=0.0584 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.69s
+2026-10-28 09:55:38,860 coordinator INFO round  26 aggregated   acc=0.9810 loss=0.0589 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.61s
+2026-10-28 09:55:41,560 coordinator INFO round  27 aggregated   acc=0.9811 loss=0.0561 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.70s
+2026-10-28 09:55:44,152 coordinator INFO round  28 aggregated   acc=0.9809 loss=0.0544 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.59s
+2026-10-28 09:55:46,861 coordinator INFO round  29 aggregated   acc=0.9810 loss=0.0599 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.71s
+2026-10-28 09:55:49,593 coordinator INFO round  30 aggregated   acc=0.9811 loss=0.0540 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.73s
+2026-10-28 09:55:49,594 coordinator WARNING worker 2 disconnected
+2026-10-28 09:55:49,594 coordinator WARNING worker 0 disconnected
+2026-10-28 09:55:49,594 coordinator WARNING worker 4 disconnected
+2026-10-28 09:55:49,594 coordinator WARNING worker 3 disconnected
+2026-10-28 09:55:49,594 coordinator WARNING worker 1 disconnected
+2026-10-28 09:55:49,799 coordinator INFO done

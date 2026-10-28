@@ -1,0 +1,13 @@
+2026-10-28 10:30:54,587 worker0 INFO worker 0: 12000 local samples, faults={'crash_at_round': 10}
+2026-10-28 10:30:54,589 worker0 INFO connected and registered
+2026-10-28 10:30:56,654 worker0 INFO round 1: sent update (loss 0.1278, train 2.03s, delay 0.00s)
+2026-10-28 10:30:59,287 worker0 INFO round 2: sent update (loss 0.0629, train 2.03s, delay 0.00s)
+2026-10-28 10:31:01,926 worker0 INFO round 3: sent update (loss 0.0310, train 2.03s, delay 0.00s)
+2026-10-28 10:31:04,538 worker0 INFO round 4: sent update (loss 0.0175, train 2.04s, delay 0.00s)
+2026-10-28 10:31:07,165 worker0 INFO round 5: sent update (loss 0.0168, train 2.05s, delay 0.00s)
+2026-10-28 10:31:09,768 worker0 INFO round 6: sent update (loss 0.0123, train 2.03s, delay 0.00s)
+2026-10-28 10:31:12,401 worker0 INFO round 7: sent update (loss 0.0101, train 2.03s, delay 0.00s)
+2026-10-28 10:31:15,037 worker0 INFO round 8: sent update (loss 0.0108, train 2.04s, delay 0.00s)
+2026-10-28 10:31:17,729 worker0 INFO round 9: sent update (loss 0.0087, train 2.08s, delay 0.00s)
+2026-10-28 10:31:18,277 worker0 WARNING injected CRASH at round 10
+2026-10-28 10:31:18,277 worker0 WARNING crashed permanently

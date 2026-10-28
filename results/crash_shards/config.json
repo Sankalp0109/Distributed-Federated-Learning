@@ -1,0 +1,29 @@
+{
+  "name": "crash_shards",
+  "mode": "federated",
+  "dataset": "mnist",
+  "num_workers": 5,
+  "split": "shards",
+  "classes_per_worker": 2,
+  "alpha": 0.3,
+  "n_skewed": 2,
+  "rounds": 30,
+  "local_epochs": 1,
+  "lr": 0.01,
+  "batch_size": 32,
+  "round_timeout": 10.0,
+  "min_clients": 3,
+  "early_quorum": false,
+  "clients_fraction": 1.0,
+  "wire_dtype": "float32",
+  "threads": 1,
+  "seed": 0,
+  "host": "127.0.0.1",
+  "port": 49436,
+  "register_timeout": 60.0,
+  "faults": {
+    "0": {
+      "crash_at_round": 10
+    }
+  }
+}

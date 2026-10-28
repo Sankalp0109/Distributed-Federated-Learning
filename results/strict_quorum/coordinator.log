@@ -1,0 +1,65 @@
+2026-10-28 10:29:36,486 coordinator INFO listening on 127.0.0.1:49430
+2026-10-28 10:29:37,783 coordinator INFO worker 3 registered (12000 samples)
+2026-10-28 10:29:37,827 coordinator INFO worker 1 registered (12000 samples)
+2026-10-28 10:29:37,833 coordinator INFO worker 4 registered (12000 samples)
+2026-10-28 10:29:37,858 coordinator INFO worker 0 registered (12000 samples)
+2026-10-28 10:29:37,869 coordinator INFO worker 2 registered (12000 samples)
+2026-10-28 10:29:37,941 coordinator INFO starting with 5/5 workers: [0, 1, 2, 3, 4]
+2026-10-28 10:29:37,941 coordinator INFO model: 46730 params, wire dtype float32
+2026-10-28 10:29:40,350 coordinator INFO round   1 aggregated   acc=0.9701 loss=0.0964 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.41s
+2026-10-28 10:29:42,732 coordinator INFO round   2 aggregated   acc=0.9825 loss=0.0561 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.38s
+2026-10-28 10:29:45,105 coordinator INFO round   3 aggregated   acc=0.9843 loss=0.0469 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.37s
+2026-10-28 10:29:47,722 coordinator INFO round   4 aggregated   acc=0.9881 loss=0.0375 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.62s
+2026-10-28 10:29:50,195 coordinator INFO round   5 aggregated   acc=0.9893 loss=0.0326 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.47s
+2026-10-28 10:29:52,664 coordinator INFO round   6 aggregated   acc=0.9902 loss=0.0310 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.47s
+2026-10-28 10:29:55,303 coordinator INFO round   7 aggregated   acc=0.9902 loss=0.0294 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.64s
+2026-10-28 10:29:57,979 coordinator INFO round   8 aggregated   acc=0.9904 loss=0.0288 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.67s
+2026-10-28 10:30:00,618 coordinator INFO round   9 aggregated   acc=0.9906 loss=0.0265 part=[0, 1, 2, 3, 4] timeout=[] dropped=[] stale=0 bytes=1874730 2.64s
+2026-10-28 10:30:00,620 coordinator WARNING worker 3 disconnected
+2026-10-28 10:30:02,891 coordinator WARNING round 10: only 4/5 updates (min 5) - keeping previous global model
+2026-10-28 10:30:03,439 coordinator INFO round  10 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[3] stale=0 bytes=1687250 2.82s
+2026-10-28 10:30:05,208 coordinator WARNING round 11: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:05,730 coordinator INFO round  11 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.29s
+2026-10-28 10:30:07,487 coordinator WARNING round 12: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:08,004 coordinator INFO round  12 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.27s
+2026-10-28 10:30:09,753 coordinator WARNING round 13: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:10,271 coordinator INFO round  13 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.27s
+2026-10-28 10:30:12,133 coordinator WARNING round 14: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:12,674 coordinator INFO round  14 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.40s
+2026-10-28 10:30:14,431 coordinator WARNING round 15: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:14,947 coordinator INFO round  15 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.27s
+2026-10-28 10:30:16,701 coordinator WARNING round 16: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:17,228 coordinator INFO round  16 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.28s
+2026-10-28 10:30:19,003 coordinator WARNING round 17: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:19,527 coordinator INFO round  17 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.30s
+2026-10-28 10:30:21,296 coordinator WARNING round 18: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:21,845 coordinator INFO round  18 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.32s
+2026-10-28 10:30:23,617 coordinator WARNING round 19: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:24,135 coordinator INFO round  19 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.29s
+2026-10-28 10:30:25,905 coordinator WARNING round 20: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:26,445 coordinator INFO round  20 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.31s
+2026-10-28 10:30:28,224 coordinator WARNING round 21: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:28,753 coordinator INFO round  21 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.31s
+2026-10-28 10:30:30,537 coordinator WARNING round 22: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:31,131 coordinator INFO round  22 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.38s
+2026-10-28 10:30:32,907 coordinator WARNING round 23: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:33,442 coordinator INFO round  23 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.31s
+2026-10-28 10:30:35,246 coordinator WARNING round 24: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:35,767 coordinator INFO round  24 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.32s
+2026-10-28 10:30:37,563 coordinator WARNING round 25: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:38,103 coordinator INFO round  25 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.34s
+2026-10-28 10:30:39,889 coordinator WARNING round 26: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:40,433 coordinator INFO round  26 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.33s
+2026-10-28 10:30:42,214 coordinator WARNING round 27: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:42,744 coordinator INFO round  27 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.31s
+2026-10-28 10:30:44,546 coordinator WARNING round 28: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:45,082 coordinator INFO round  28 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.34s
+2026-10-28 10:30:46,887 coordinator WARNING round 29: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:47,411 coordinator INFO round  29 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.33s
+2026-10-28 10:30:49,240 coordinator WARNING round 30: only 4/4 updates (min 5) - keeping previous global model
+2026-10-28 10:30:49,777 coordinator INFO round  30 insufficient acc=0.9906 loss=0.0265 part=[0, 1, 2, 4] timeout=[] dropped=[] stale=0 bytes=1499784 2.37s
+2026-10-28 10:30:49,778 coordinator WARNING worker 4 disconnected
+2026-10-28 10:30:49,778 coordinator WARNING worker 1 disconnected
+2026-10-28 10:30:49,778 coordinator WARNING worker 0 disconnected
+2026-10-28 10:30:49,778 coordinator WARNING worker 2 disconnected
+2026-10-28 10:30:49,983 coordinator INFO done

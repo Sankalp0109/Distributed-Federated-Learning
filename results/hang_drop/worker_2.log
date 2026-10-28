@@ -1,0 +1,12 @@
+2026-10-28 10:24:54,512 worker2 INFO worker 2: 12000 local samples, faults={'hang_at_round': 10}
+2026-10-28 10:24:54,515 worker2 INFO connected and registered
+2026-10-28 10:24:56,757 worker2 INFO round 1: sent update (loss 0.4337, train 2.21s, delay 0.00s)
+2026-10-28 10:25:07,245 worker2 INFO round 2: sent update (loss 0.1049, train 2.12s, delay 0.00s)
+2026-10-28 10:25:09,582 worker2 INFO round 3: sent update (loss 0.0700, train 1.75s, delay 0.00s)
+2026-10-28 10:25:20,340 worker2 INFO round 4: sent update (loss 0.0568, train 1.96s, delay 0.00s)
+2026-10-28 10:25:23,631 worker2 INFO round 5: sent update (loss 0.0483, train 2.68s, delay 0.00s)
+2026-10-28 10:25:26,643 worker2 INFO round 6: sent update (loss 0.0413, train 2.31s, delay 0.00s)
+2026-10-28 10:25:36,500 worker2 INFO round 7: sent update (loss 0.0357, train 1.62s, delay 0.00s)
+2026-10-28 10:25:47,668 worker2 INFO round 8: sent update (loss 0.0315, train 2.19s, delay 0.00s)
+2026-10-28 10:25:50,737 worker2 INFO round 9: sent update (loss 0.0299, train 2.45s, delay 0.00s)
+2026-10-28 10:25:51,365 worker2 WARNING injected HANG at round 10 (connection stays open, no replies)

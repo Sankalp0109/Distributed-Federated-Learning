@@ -1,0 +1,20 @@
+2026-10-28 10:00:53,827 worker3 INFO worker 3: 12000 local samples, faults={}
+2026-10-28 10:00:53,830 worker3 INFO connected and registered
+2026-10-28 10:00:55,518 worker3 INFO round 1: sent update (loss 0.4334, train 1.65s, delay 0.00s)
+2026-10-28 10:00:57,665 worker3 INFO round 2: sent update (loss 0.1040, train 1.61s, delay 0.00s)
+2026-10-28 10:00:59,900 worker3 INFO round 3: sent update (loss 0.0747, train 1.67s, delay 0.00s)
+2026-10-28 10:01:06,887 worker3 INFO round 6: sent update (loss 0.0526, train 1.74s, delay 0.00s)
+2026-10-28 10:01:09,276 worker3 INFO round 7: sent update (loss 0.0437, train 1.78s, delay 0.00s)
+2026-10-28 10:01:13,851 worker3 INFO round 9: sent update (loss 0.0376, train 1.72s, delay 0.00s)
+2026-10-28 10:01:20,793 worker3 INFO round 12: sent update (loss 0.0334, train 1.75s, delay 0.00s)
+2026-10-28 10:01:27,728 worker3 INFO round 15: sent update (loss 0.0281, train 1.73s, delay 0.00s)
+2026-10-28 10:01:29,981 worker3 INFO round 16: sent update (loss 0.0229, train 1.69s, delay 0.00s)
+2026-10-28 10:01:32,251 worker3 INFO round 17: sent update (loss 0.0222, train 1.70s, delay 0.00s)
+2026-10-28 10:01:36,900 worker3 INFO round 19: sent update (loss 0.0187, train 1.78s, delay 0.00s)
+2026-10-28 10:01:39,183 worker3 INFO round 20: sent update (loss 0.0147, train 1.70s, delay 0.00s)
+2026-10-28 10:01:41,453 worker3 INFO round 21: sent update (loss 0.0094, train 1.68s, delay 0.00s)
+2026-10-28 10:01:43,789 worker3 INFO round 22: sent update (loss 0.0069, train 1.75s, delay 0.00s)
+2026-10-28 10:01:46,096 worker3 INFO round 23: sent update (loss 0.0084, train 1.74s, delay 0.00s)
+2026-10-28 10:01:50,661 worker3 INFO round 25: sent update (loss 0.0082, train 1.71s, delay 0.00s)
+2026-10-28 10:01:52,922 worker3 INFO round 26: sent update (loss 0.0080, train 1.70s, delay 0.00s)
+2026-10-28 10:02:02,722 worker3 INFO shutdown received

@@ -1,0 +1,80 @@
+epoch   1 acc=0.9868 loss=0.0448 (6.0s)
+epoch   2 acc=0.9874 loss=0.0395 (12.3s)
+epoch   3 acc=0.9903 loss=0.0293 (18.7s)
+epoch   4 acc=0.9912 loss=0.0271 (25.1s)
+epoch   5 acc=0.9906 loss=0.0310 (31.3s)
+epoch   6 acc=0.9915 loss=0.0291 (37.5s)
+epoch   7 acc=0.9910 loss=0.0285 (43.9s)
+epoch   8 acc=0.9912 loss=0.0304 (50.2s)
+epoch   9 acc=0.9927 loss=0.0274 (56.5s)
+epoch  10 acc=0.9927 loss=0.0258 (62.7s)
+epoch  11 acc=0.9912 loss=0.0370 (68.9s)
+epoch  12 acc=0.9903 loss=0.0371 (75.3s)
+epoch  13 acc=0.9886 loss=0.0442 (81.6s)
+epoch  14 acc=0.9899 loss=0.0460 (87.9s)
+epoch  15 acc=0.9912 loss=0.0352 (94.0s)
+epoch  16 acc=0.9913 loss=0.0385 (100.4s)
+epoch  17 acc=0.9901 loss=0.0425 (106.8s)
+epoch  18 acc=0.9898 loss=0.0415 (113.1s)
+epoch  19 acc=0.9920 loss=0.0388 (119.3s)
+epoch  20 acc=0.9907 loss=0.0381 (125.4s)
+epoch  21 acc=0.9878 loss=0.0528 (131.5s)
+epoch  22 acc=0.9914 loss=0.0387 (137.6s)
+epoch  23 acc=0.9931 loss=0.0349 (143.8s)
+epoch  24 acc=0.9927 loss=0.0352 (150.1s)
+epoch  25 acc=0.9928 loss=0.0365 (156.3s)
+epoch  26 acc=0.9934 loss=0.0359 (162.6s)
+epoch  27 acc=0.9933 loss=0.0364 (168.8s)
+epoch  28 acc=0.9934 loss=0.0368 (175.1s)
+epoch  29 acc=0.9933 loss=0.0372 (181.2s)
+epoch  30 acc=0.9934 loss=0.0375 (187.4s)
+[iid] coordinator pid 2550, workers [2551, 2552, 2553, 2554, 2556]; logs in results/iid/
+[iid] exit=0 rounds=30 final_acc=0.9921 wall=80.5s
+[shards] coordinator pid 2573, workers [2574, 2575, 2576, 2577, 2578]; logs in results/shards/
+[shards] exit=0 rounds=30 final_acc=0.9811 wall=79.2s
+[dirichlet] coordinator pid 2603, workers [2604, 2605, 2606, 2607, 2608]; logs in results/dirichlet/
+[dirichlet] exit=0 rounds=30 final_acc=0.9913 wall=109.0s
+[mixed] coordinator pid 2626, workers [2628, 2629, 2630, 2631, 2632]; logs in results/mixed/
+[mixed] exit=0 rounds=30 final_acc=0.9872 wall=83.4s
+[iid_fp16] coordinator pid 2645, workers [2646, 2647, 2648, 2649, 2650]; logs in results/iid_fp16/
+[iid_fp16] exit=0 rounds=30 final_acc=0.9925 wall=92.4s
+[iid_frac60] coordinator pid 2663, workers [2664, 2665, 2666, 2667, 2668]; logs in results/iid_frac60/
+[iid_frac60] exit=0 rounds=30 final_acc=0.9929 wall=68.9s
+[iid_e5] coordinator pid 2681, workers [2682, 2683, 2684, 2685, 2686]; logs in results/iid_e5/
+[iid_e5] exit=0 rounds=30 final_acc=0.9925 wall=431.2s
+[shards_e5] coordinator pid 2742, workers [2743, 2744, 2745, 2746, 2747]; logs in results/shards_e5/
+[shards_e5] exit=0 rounds=30 final_acc=0.9810 wall=445.1s
+[straggler_wait] coordinator pid 2878, workers [2879, 2880, 2881, 2882, 2883]; logs in results/straggler_wait/
+[straggler_wait] exit=0 rounds=30 final_acc=0.9911 wall=317.2s
+[straggler_quorum] coordinator pid 2918, workers [2919, 2920, 2921, 2922, 2923]; logs in results/straggler_quorum/
+[straggler_quorum] exit=0 rounds=30 final_acc=0.9911 wall=70.0s
+[crash] coordinator pid 2943, workers [2944, 2945, 2946, 2947, 2948]; logs in results/crash/
+[crash] exit=0 rounds=30 final_acc=0.9920 wall=79.6s
+[hang_drop] coordinator pid 2959, workers [2960, 2961, 2962, 2963, 2964]; logs in results/hang_drop/
+[hang_drop] exit=0 rounds=30 final_acc=0.9918 wall=278.6s
+[strict_quorum] coordinator pid 2998, workers [2999, 3000, 3001, 3002, 3003]; logs in results/strict_quorum/
+[strict_quorum] exit=0 rounds=30 final_acc=0.9906 wall=71.8s
+[crash_shards] coordinator pid 3018, workers [3019, 3020, 3021, 3022, 3023]; logs in results/crash_shards/
+[crash_shards] exit=0 rounds=30 final_acc=0.9036 wall=86.2s
+      experiment       split  final_acc  best_acc  rounds_to_98%  time_to_98%_s  mean_round_s  mean_KB_per_round  total_MB  stale_rejected  timeouts  insufficient_rounds
+     centralized centralized     0.9934    0.9934            1.0       6.028645      6.246371           0.000000  0.000000               0         0                    0
+           crash         iid     0.9920    0.9929            2.0       5.206188      2.654796        1476.841211 43.266832               0         0                    0
+    crash_shards      shards     0.9036    0.9684            NaN            NaN      2.871744        1580.582682 46.306133               0         0                    0
+       dirichlet   dirichlet     0.9913    0.9922            4.0      15.131946      3.633855        1830.791016 53.636456               0         0                    0
+       hang_drop         iid     0.9918    0.9927            2.0      13.279395      9.285245        1623.293620 47.557430               0        34                    0
+             iid         iid     0.9921    0.9928            2.0       5.179310      2.684127        1830.791016 53.636456               0         0                    0
+          iid_e5         iid     0.9925    0.9926            1.0      13.036782     14.373222        1830.791016 53.636456               0         0                    0
+        iid_fp16         iid     0.9925    0.9928            2.0       5.528443      3.080086         918.095703 26.897335               0         0                    0
+      iid_frac60         iid     0.9929    0.9929            2.0       4.365346      2.294990        1098.474609 32.181873               0         0                    0
+           mixed       mixed     0.9872    0.9874           14.0      38.069106      2.779547        1830.791016 53.636456               0         0                    0
+          shards      shards     0.9811    0.9811           22.0      57.982968      2.641037        1830.791016 53.636456               0         0                    0
+       shards_e5      shards     0.9810    0.9816           22.0     320.488965     14.835220        1830.791016 53.636456               0         0                    0
+straggler_quorum         iid     0.9911    0.9924            2.0       4.508386      2.334726        1672.125130 48.988041               4        30                    0
+  straggler_wait         iid     0.9911    0.9924            2.0      21.148789     10.572571        1775.910352 52.028624              21        30                    0
+   strict_quorum         iid     0.9906    0.9906            2.0       4.790254      2.394345        1580.582682 46.306133               0         0                   21
+wrote results/figures/accuracy_splits.png
+wrote results/figures/local_epochs.png
+wrote results/figures/communication.png
+wrote results/figures/faults_accuracy.png
+wrote results/figures/faults_participation.png
+wrote results/figures/crash_noniid.png
