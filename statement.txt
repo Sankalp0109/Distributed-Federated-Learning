@@ -1,0 +1,9 @@
+26. Distributed Federated Learning
+Implement a federated-learning coordinator and 4–6 workers with private local data shards. Use
+a small supplied classifier and dataset; each round sends the global model, trains locally, and
+aggregates updates using sample-weighted FedAvg. Create both uniform and non-IID splits,
+with some workers seeing only a few classes. Add round identifiers and timeouts so late updates
+are rejected and a round can proceed with a stated minimum participation. Compare accuracy
+with centralized training and measure bytes per round, convergence, and behavior under slow
+or crashed workers. Concepts: round coordination, aggregation, stragglers, partial failures,
+communication cost.
